@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --font-base :'Bebas Neue', cursive;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #050722;
+  --black-color: #030303;
+  --lightGray-color: #8f8c8c;
+  --gray-color: #31363d;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html{
+  font-size: 80%  ;
+}
